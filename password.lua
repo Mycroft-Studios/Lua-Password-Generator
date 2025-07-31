@@ -38,7 +38,7 @@ function GeneratePassword()
         end
     end  
 
-    local passwordIndex = math.random(1, Settings.times) -- pick a random combo
+    local passwordIndex = math.random(1, times) -- pick a random combo
     
     for index = 1, Settings.Length do
         local tbl = combos[passwordIndex] 
